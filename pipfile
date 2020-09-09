@@ -7,6 +7,8 @@ verify_ssl = true
 twine = "*"
 jupyter = "*"
 pylint = "*"
+flake8 = "*"
+autopep8 = "*"
 
 [packages]
 pandas = "*"
