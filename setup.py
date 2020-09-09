@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="my_lambdadata_yinmialas", # the name that you will install via pip
-    version="2.0",
+    version="2.001",
     author="Yinmi Alas",
     author_email="jimmyalas73@gmail.com",
     description="my def function package",
