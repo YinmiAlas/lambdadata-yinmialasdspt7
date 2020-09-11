@@ -7,7 +7,7 @@ Collecting packages
 pip install -i https://test.pypi.org/simple/ my-lambdadata-yinmialas==2.2
 
 ### Usage
-    '''Computes a confusion matrix using numpy for true and pred.
+Computes a confusion matrix using numpy for true and pred.
 
 Results are identical and similar in computation time to:
 from sklearn.metrics import confusion_matrix
@@ -19,6 +19,7 @@ compute_confusion_matrix(true, pred)
 ----------------------------------------------------------------
 
 Create a python file package with a name you prefer ussing code below:
+
 def sum(arg):
     total = 0
     for val in arg:
@@ -30,7 +31,6 @@ lets take the sum using the created package above
 import unittest
 from fractions import Fraction
 from my_lambdadata.def_sum_unittest1 import sum
-
 
 class TestSum(unittest.TestCase):
     def test_list_int(self):
